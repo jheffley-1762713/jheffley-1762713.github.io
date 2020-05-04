@@ -1,0 +1,43 @@
+/* Our CSS Document */
+
+body {
+    background-color: red;
+}
+
+.Picture {
+    height: 50px;
+    width: 50px;
+}
+
+#pictureContainer {
+    position: relative;
+}
+
+#Color {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#Text {
+    left: 50%;
+    border-style: dotted;
+    text-shadow: 5px 5px 5px purple;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    color:white;
+}
+
+#floatedPurple {
+    float: right;
+    background: black;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#purple {
+    width: 150px;
+}
