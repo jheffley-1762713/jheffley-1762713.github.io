@@ -1,0 +1,50 @@
+<!DOCTYPE html>      
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Snowsports Instructor Job Application</title>
+</head>
+<body style="background-color:blue;">
+   <div="mainContent">
+       <h1>Snowsports Instructor Job Application</h1>
+       <p>If you are interested in sharing your knowledge of snowsports please apply below.</p>
+       <div class="formClass">
+        <form name="input" action="https://formspree.io/mzbjdwrb" method="post">
+                <fieldset>
+                    <legend>Basic Info</legend>
+                    <label>Full Name:</label> <input type="text" name="name"/><br/><br/>
+                    <label>Email:</label> <input type="email" name="_replyto"><br/><br/>
+                    <label>Do you mainly ski or snowboard?</label> <br/><br/> <input type="radio" name="answer1" value="Ski"> Ski<br> <input type="radio" name="answer1" value="Snowboard"> Snowboard<br/><br/><br/>
+                    <label>What is your home mountain?</label> <br/><br/> <select name="mountains"> <option value="Crystal Mountain">Crystal Mountain</option> <option value="Steven's Pass">Steven's Pass</option> <option value="Summit at Snoqualmie">Summit at Snoqualmie</option> </select> <br/><br/><br/>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Essay Question</legend>
+                    <label>Please tell us, why you want to become a snowsports instructor?</label> <br/><br/> <textarea name="essay">Text here</textarea><br/><br/><br/>
+                </fieldset>
+
+                <fieldset>
+                    <legend>More Info</legend>
+                    <label>What days are you available to teach?</label> <br/><br/> <input type="checkbox" name="availability" value="Friday">Friday<br> <input type="checkbox" name="availability" value="Saturday">Saturday<br> <input type="checkbox" name="availability" value="Sunday">Sunday<br/><br/><br/>
+                    <label>What color and size jacket would you like?</label>
+                    <select name="jacketPreference">
+                        <optgroup label="Red Jacket">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </optgroup>
+                        <optgroup label="Blue Jacket">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                
+                <input type="submit" value="Send">
+            </form>
+   </div> 
+</body>
+</html>
